@@ -40,9 +40,9 @@ typedef struct
 static const TChannel Channels[] = {
                                     
                                     
-                                    {  TIM3,  4, false,  RCC_APB1ENR_TIM3EN,  &RCC->APB1ENR, AF1, {GPIOB,  1},  AktiveLow},  // PB1  - TIM3_CH4
-                                    {  TIM3,  3, false,  RCC_APB1ENR_TIM3EN,  &RCC->APB1ENR, AF1, {GPIOB,  0},  AktiveHigh},  // PB2  - TIM3_CH3
-                                    
+                                    {  TIM3,  2, false,  RCC_APB1ENR_TIM3EN,  &RCC->APB1ENR, AF1, {GPIOA,  7},  AktiveHigh},  // PA7  - TIM3_CH2, красный
+                                    {  TIM3,  1, false,  RCC_APB1ENR_TIM3EN,  &RCC->APB1ENR, AF1, {GPIOA,  6},  AktiveHigh},  // PB2  - TIM3_CH1, зеленый
+                                    {  TIM3,  4, false,  RCC_APB1ENR_TIM3EN,  &RCC->APB1ENR, AF1, {GPIOB,  1},  AktiveHigh},  // PB2  - TIM3_CH1, синий
                                     
                                    };
 

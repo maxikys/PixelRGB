@@ -398,11 +398,6 @@
               <FilePath>.\User\src\gpio_driver.c</FilePath>
             </File>
             <File>
-              <FileName>Keyboard.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\src\Keyboard.c</FilePath>
-            </File>
-            <File>
               <FileName>platform_delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\src\platform_delay.c</FilePath>
@@ -433,16 +428,6 @@
               <FilePath>.\User\src\clock.c</FilePath>
             </File>
             <File>
-              <FileName>Spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\src\Spi.c</FilePath>
-            </File>
-            <File>
-              <FileName>usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\src\usart.c</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\src\main.c</FilePath>
@@ -453,24 +438,9 @@
               <FilePath>.\User\src\crc_calc.c</FilePath>
             </File>
             <File>
-              <FileName>adc2.c</FileName>
+              <FileName>DMX_receive.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\src\adc2.c</FilePath>
-            </File>
-            <File>
-              <FileName>EXTI.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\src\EXTI.c</FilePath>
-            </File>
-            <File>
-              <FileName>tim.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\src\tim.c</FilePath>
-            </File>
-            <File>
-              <FileName>entertype.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\inc\entertype.h</FilePath>
+              <FilePath>.\User\src\DMX_receive.c</FilePath>
             </File>
           </Files>
         </Group>
