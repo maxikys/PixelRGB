@@ -27,6 +27,7 @@
 #include <stdlib.h>
 #include "entertype.h"
 #include "routine.h"
+#include "DMX_receive.h"
 
 
 

@@ -46,15 +46,16 @@ int main(void)
    ConfigVirualPort(TestPort,4,OUT,_2MHz,NOPULL,PP);
    
    pwm_Init(0); // красный
-   pwm_Set(0,100);
+   pwm_Set(0,0);
    
    pwm_Init(1); // зеленый
-   pwm_Set(0,200);
+   pwm_Set(1,0);
    
    pwm_Init(2); // синий
-   pwm_Set(0,300);
+   pwm_Set(2,0);
    
    SystickAddFunction(5, &Mimi);
+   USART1_Configuration();
    
    while (1)
    {

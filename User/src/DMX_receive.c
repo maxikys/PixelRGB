@@ -22,9 +22,9 @@ union DMX_Flag Flag;
 // 
 
 uint8_t tempISRhi,dmx__chNum=0,maxChNum=3,i=0;
-uint16_t dmx__curAdr=0,dmx_baseAdr=4,count_break=0,DMX_Array[3];
+uint16_t dmx__curAdr=0,dmx_baseAdr=0,count_break=0,DMX_Array[3];
 uint32_t del=0;
-uint8_t TxBuffer[3]={85,255,15}, i_ch=0,i_pl=0;
+//uint8_t TxBuffer[3]={85,255,15}, i_ch=0, i_pl = 0;
 
 
 /* настройка вектора прерывания */
@@ -81,6 +81,11 @@ void USART1_IRQHandler()
 //                           }
 //                           LE_low(); 
 //                        }
+
+                     pwm_Set(0,DMX_Array[0]); //красный
+                     pwm_Set(1,DMX_Array[1]); //зеленый
+                     pwm_Set(2,DMX_Array[2]); //синий
+                     
                      };
                   }
                   else

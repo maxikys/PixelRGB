@@ -9,5 +9,6 @@
 #include "systick.h"
 #include "stm32f0xx_usart.h"
 #include "stm32f0xx_misc.h"
+#include "pwm.h"
 
 void USART1_Configuration(void);
